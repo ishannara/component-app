@@ -39,11 +39,8 @@ function Login() {
     requestPermission();
     onMessage(messaging, (payload) => {
       console.log(payload);
-      toast(payload.notification.body);
     });
   }, []);
-
-  const toast = () => toast("here is your toast");
 
   return (
     <>

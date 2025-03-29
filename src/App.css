@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.btn {
+  padding: 10px 25px;
+  margin: 20px 10px;
+  background-color: rgb(37, 135, 71);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+.input {
+  padding: 10px 10px;
+  margin: 20px 15px;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 500;
+}
