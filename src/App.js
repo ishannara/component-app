@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import GridSystem from "./component/GridSystem";
+import AutoComplete from "./component/AutoComplete";
+// import GridSystem from "./component/GridSystem";
 // import ImagesSelecter from "./components/ImagesSelecter";
 // import ImageSelect from "./components/ImageSelect";
 // import Login from "./Login";
@@ -20,7 +21,8 @@ function App() {
         {/* <ColorPicker/> */}
         {/* <ImageSelect/> */}
         {/* <ImagesSelecter/> */}
-        <GridSystem/>
+        {/* <GridSystem/> */}
+        <AutoComplete/>
       </div>
     </>
   );
