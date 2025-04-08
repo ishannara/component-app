@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
-import AutoComplete from "./component/AutoComplete";
+import UseHistory from "./ImportantReactHooks/UseHistory";
+// import ReactTable from "./component/ReactTable";
+// import AutoComplete from "./component/AutoComplete";
 // import GridSystem from "./component/GridSystem";
 // import ImagesSelecter from "./components/ImagesSelecter";
 // import ImageSelect from "./components/ImageSelect";
@@ -22,7 +24,9 @@ function App() {
         {/* <ImageSelect/> */}
         {/* <ImagesSelecter/> */}
         {/* <GridSystem/> */}
-        <AutoComplete/>
+        {/* <AutoComplete/> */}
+        {/* <ReactTable/> */}
+        <UseHistory/>
       </div>
     </>
   );
