@@ -6,7 +6,7 @@ function GridSystem() {
     <>
       <div>
         <h1>GridSystem</h1>
-        <Grid item container spacing={2}>
+        <Grid container spacing={2}>
           <Grid item lg={3} sm={6} xs={12}  >
             <h1 style={{ backgroundColor: "green" }}>Block 1</h1>
           </Grid>
