@@ -19,12 +19,12 @@ function GridSystem() {
           <Grid item lg={6} sm={6} xs={12}>
             <h1 style={{ backgroundColor: "lightblue" }}>Block 4</h1>
           </Grid>
-          <Grid item lg={6} sm={6} xs={12}>
+          {/* <Grid item lg={6} sm={6} xs={12}>
             <h1 style={{ backgroundColor: "lightgreen" }}>Block 5</h1>
           </Grid>
           <Grid item lg={6} sm={6} xs={12}>
             <h1 style={{ backgroundColor: "red" }}>Block 6</h1>
-          </Grid>
+          </Grid> */}
         </Grid>
       </div>
     </>
